@@ -1253,6 +1253,23 @@
   pointer-events: none;
 }
 
+:root .app-1q1i1E::before {
+  left: 0;
+  top: 0;
+  width: 250px;
+  height: 250px;
+  background: url("https://i.imgur.com/DPi0470.png") no-repeat;
+  background-size: 100%;
+}
+:root .app-1q1i1E::after {
+  z-index: 0;
+  left: 50px;
+  bottom: 0;
+  width: 490px;
+  height: 40px;
+  background: url("https://i.imgur.com/cnw3f9g.png") no-repeat;
+  background-size: 100%;
+}
 
 :root .app-2rEoOp::before {
   top: 80px;
