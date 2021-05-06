@@ -42,20 +42,20 @@
   --deprecated-quickswitcher-input-background: var(--background-primary);
 }
 .theme-dark .colorBrand-ROmMP1 {
-  color: #c5536c;
+  color: #515b9c;
 }
 .theme-dark .colorDefault-2K3EoJ.focused-3afm-j, .theme-dark .colorDefault-2K3EoJ:active:not(.hideInteraction-1iHO1O) {
   background-color: var(--background-modifier-hover) !important;
 }
 .theme-dark .lookFilled-1Gx00P {
-  background-color: #c5536c !important;
+  background-color: #515b9c !important;
 }
 .theme-dark .lookFilled-1Gx00P:active, .theme-dark .lookFilled-1Gx00P:hover {
-  background-color: #b64a61 !important;
+  background-color: #515b9c !important;
 }
 .theme-dark .lookOutlined-3sRXeN:not(.colorWhite-rEQuAQ) {
-  color: #c5536c;
-  border-color: #c5536c;
+  color: #515b9c;
+  border-color: #515b9c;
 }
 .theme-dark .colorDefault-2K3EoJ.focused-3afm-j, .theme-dark .colorDefault-2K3EoJ:active:not(.hideInteraction-1iHO1O) {
   color: var(--interactive-normal);
