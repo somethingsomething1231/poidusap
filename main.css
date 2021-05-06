@@ -1246,8 +1246,20 @@
   background-size: 21px 2px;
   background-repeat: repeat-x;
 }
-
+:root .app-1q1i1E::before, :root .app-1q1i1E::after, :root .app-2rEoOp::after, :root .app-2rEoOp::before, :root .layers-3iHuyZ::before, :root .layers-3iHuyZ::after, :root .app-1q1i1E::before, :root .bg-h5JY_x::after {
+  content: "";
+  position: fixed;
+  z-index: 1;
+  pointer-events: none;
 }
+
+:root .app-2rEoOp::before {
+  top: 80px;
+  right: 116px;
+  width: 200px;
+  height: 120px;
+  background: url("https://i.imgur.com/HYLcE3T.png") no-repeat;
+  background-size: 100%;
 
 :root ::-webkit-input-placeholder, :root body, :root button, :root input, :root select, :root textarea {
   font-family: "Nunito" !important;
