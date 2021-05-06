@@ -62,25 +62,30 @@
 }
 
 .theme-light {
-  --text-normal: #a86373;
-  --header-primary: #a86373;
-  --interactive-normal: #a86373;
-  --channels-default: #a86373;
-  --text-muted: #a86373;
-  --interactive-muted: #cf92a0;
-  --header-secondary: #cf92a0;
-  --interactive-hover: #be7d8c;
-  --interactive-active: #b36f7f;
-  --background-primary: #FFFFFF;
-  --background-secondary: #ffeeee;
-  --background-secondary-alt: #fdc7c7;
-  --background-tertiary: #ffbbbb;
-  --background-floating: #ffbbbb;
-  --background-accent: #c5536c;
+  --text-normal: #ffffff;
+  --header-primary: #ffffff;
+  --interactive-normal: #ffffff;
+  --channels-default: #ffffff;
+  --text-muted: #ffffff;
+  --interactive-muted: #737373;
+  --header-secondary: #737373;
+  --interactive-hover: #737373;
+  --interactive-active: #737373;
+  --background-primary: #515b9c;
+  --background-secondary: #515b9c;
+  --background-secondary-alt: #515b9c;
+  --background-tertiary: #515b9c;
+  --background-floating: #515b9c;
+  --background-accent: #152f77;
+  --activity-card-background: var(--background-secondary-alt);
   --channeltextarea-background: var(--background-secondary);
-  --background-modifier-hover: rgba(56, 31, 31, 0.062);
-  --background-modifier-active: rgba(19, 12, 12, 0.123);
-  --background-modifier-selected: rgba(31, 21, 21, 0.11);
+  --background-modifier-hover: #515b9c;
+  --background-modifier-active: #515b9c;
+  --background-modifier-selected: #515b9c;
+  --toast-background: #5e3640 !important;
+  --toast-header: #5e3640 !important;
+  --toast-contents: #515b9c !important;
+  --toast-border: #515b9c !important;
   --scrollbar-auto-thumb: var(--background-tertiary);
   --scrollbar-auto-track: var(--background-secondary-alt);
   --scrollbar-thin-thumb: var(--background-tertiary);
@@ -169,7 +174,7 @@
 }
 :root .everyonePopout-nEbJY3 {
   background-color: var(--background-primary);
-  box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.2), 0 0 0 1px rgba(56, 31, 31, 0.11);
+  box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.2), 0 0 0 1px rgba(81, 91, 156, 0.11);
 }
 :root .emojiItem-14v6tW.emojiItemSelected-1aLkfV {
   background-color: var(--background-modifier-selected);
@@ -188,7 +193,7 @@
 }
 :root .message-2qRu38 {
   background: var(--background-primary);
-  box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.2), 0 0 0 1px rgba(56, 31, 31, 0.11);
+  box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.2), 0 0 0 1px rgba(81, 91, 156, 0.11);
 }
 :root .textContainer-C0szpm, :root .footer-2yA7Ep {
   border: none;
@@ -280,7 +285,7 @@
   margin: 0 5px 8px 5px;
   border-radius: calc(var(--border-radius) - 5px);
   background-color: var(--background-secondary-alt);
-  box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.2), 0 0 0 1px rgba(56, 31, 31, 0.11);
+  box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.2), 0 0 0 1px rgba(81, 91, 156, 0.11);
   overflow: hidden;
 }
 :root .panels-j1Uci_ .container-1giJp5 {
@@ -326,7 +331,7 @@
   background-color: var(--background-primary);
 }
 :root .container-3ayLPN {
-  box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.2), 0 0 0 1px rgba(56, 31, 31, 0.11);
+  box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.2), 0 0 0 1px rgba(81, 91, 156, 0.11);
   background-color: var(--background-secondary-alt);
   border-radius: var(--border-radius);
 }
