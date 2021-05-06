@@ -31,8 +31,8 @@
   --background-modifier-hover: #515b9c;
   --background-modifier-active: #515b9c;
   --background-modifier-selected: #515b9c;
-  --toast-background: #5e3640 !important;
-  --toast-header: #5e3640 !important;
+  --toast-background: #515b9c !important;
+  --toast-header: #515b9c !important;
   --toast-contents: #515b9c !important;
   --toast-border: #515b9c !important;
   --scrollbar-auto-thumb: var(--background-tertiary);
